@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -692,6 +692,207 @@ general purpose rectifier, 1 A</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="optocoupler" urn="urn:adsk.eagle:library:320">
+<description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
+Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MINI-FLAT-16" urn="urn:adsk.eagle:footprint:21913/1" library_version="3">
+<description>&lt;b&gt;TOSHIBA PHOTOCOUPLER GaAs IRED &amp; PHOTO-TRANSISTOR&lt;/b&gt; 11-10F1&lt;/b&gt;&lt;p&gt;
+Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP283_datasheet.pdf</description>
+<wire x1="-2.0849" y1="-4.9784" x2="2.0849" y2="-4.9784" width="0.2032" layer="21"/>
+<wire x1="2.0849" y1="-4.9784" x2="2.0849" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="2.0849" y1="4.9784" x2="-2.0849" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="-2.0849" y1="4.9784" x2="-2.0849" y2="-4.9784" width="0.2032" layer="21"/>
+<circle x="-1.285" y="4.164" radius="0.3349" width="0.1016" layer="21"/>
+<smd name="1" x="-3.24" y="4.445" dx="1" dy="0.5" layer="1"/>
+<smd name="2" x="-3.24" y="3.175" dx="1" dy="0.5" layer="1"/>
+<smd name="3" x="-3.24" y="1.905" dx="1" dy="0.5" layer="1"/>
+<smd name="4" x="-3.24" y="0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="5" x="-3.24" y="-0.635" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="6" x="-3.24" y="-1.905" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="7" x="-3.24" y="-3.175" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="8" x="-3.24" y="-4.445" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="9" x="3.24" y="-4.445" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="10" x="3.24" y="-3.175" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="11" x="3.24" y="-1.905" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="12" x="3.24" y="-0.635" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="13" x="3.24" y="0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="14" x="3.24" y="1.905" dx="1" dy="0.5" layer="1"/>
+<smd name="15" x="3.24" y="3.175" dx="1" dy="0.5" layer="1"/>
+<smd name="16" x="3.24" y="4.445" dx="1" dy="0.5" layer="1"/>
+<text x="-1.905" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.471" y1="4.2545" x2="-2.15" y2="4.6355" layer="51"/>
+<rectangle x1="-3.471" y1="2.9845" x2="-2.15" y2="3.3655" layer="51"/>
+<rectangle x1="-3.471" y1="1.7145" x2="-2.15" y2="2.0955" layer="51"/>
+<rectangle x1="-3.471" y1="0.4445" x2="-2.15" y2="0.8255" layer="51"/>
+<rectangle x1="-3.471" y1="-0.8255" x2="-2.15" y2="-0.4445" layer="51" rot="R180"/>
+<rectangle x1="-3.471" y1="-2.0955" x2="-2.15" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="-3.471" y1="-3.3655" x2="-2.15" y2="-2.9845" layer="51" rot="R180"/>
+<rectangle x1="-3.471" y1="-4.6355" x2="-2.15" y2="-4.2545" layer="51" rot="R180"/>
+<rectangle x1="2.15" y1="-4.6355" x2="3.471" y2="-4.2545" layer="51" rot="R180"/>
+<rectangle x1="2.15" y1="-3.3655" x2="3.471" y2="-2.9845" layer="51" rot="R180"/>
+<rectangle x1="2.15" y1="-2.0955" x2="3.471" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="2.15" y1="-0.8255" x2="3.471" y2="-0.4445" layer="51" rot="R180"/>
+<rectangle x1="2.15" y1="0.4445" x2="3.471" y2="0.8255" layer="51"/>
+<rectangle x1="2.15" y1="1.7145" x2="3.471" y2="2.0955" layer="51"/>
+<rectangle x1="2.15" y1="2.9845" x2="3.471" y2="3.3655" layer="51"/>
+<rectangle x1="2.15" y1="4.2545" x2="3.471" y2="4.6355" layer="51"/>
+</package>
+<package name="MINI-FLAT-4" urn="urn:adsk.eagle:footprint:21912/1" library_version="3">
+<description>&lt;b&gt;TOSHIBA PHOTOCOUPLER GaAs IRED &amp; PHOTO-TRANSISTOR&lt;/b&gt; 11-3A1&lt;/b&gt;&lt;p&gt;
+Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP283_datasheet.pdf</description>
+<wire x1="-2.0849" y1="-1.1684" x2="2.0849" y2="-1.1684" width="0.2032" layer="21"/>
+<wire x1="2.0849" y1="-1.1684" x2="2.0849" y2="1.1684" width="0.2032" layer="21"/>
+<wire x1="2.0849" y1="1.1684" x2="-2.0849" y2="1.1684" width="0.2032" layer="21"/>
+<wire x1="-2.0849" y1="1.1684" x2="-2.0849" y2="-1.1684" width="0.2032" layer="21"/>
+<circle x="-1.285" y="0.354" radius="0.3349" width="0.1016" layer="21"/>
+<smd name="1" x="-3.24" y="0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="2" x="-3.24" y="-0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="3" x="3.24" y="-0.635" dx="1" dy="0.5" layer="1" rot="R180"/>
+<smd name="4" x="3.24" y="0.635" dx="1" dy="0.5" layer="1" rot="R180"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.471" y1="0.4445" x2="-2.15" y2="0.8255" layer="51"/>
+<rectangle x1="-3.471" y1="-0.8255" x2="-2.15" y2="-0.4445" layer="51"/>
+<rectangle x1="2.15" y1="-0.8255" x2="3.471" y2="-0.4445" layer="51" rot="R180"/>
+<rectangle x1="2.15" y1="0.4445" x2="3.471" y2="0.8255" layer="51" rot="R180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MINI-FLAT-16" urn="urn:adsk.eagle:package:21967/1" type="box" library_version="3">
+<description>TOSHIBA PHOTOCOUPLER GaAs IRED &amp; PHOTO-TRANSISTOR 11-10F1
+Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP283_datasheet.pdf</description>
+<packageinstances>
+<packageinstance name="MINI-FLAT-16"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI-FLAT-4" urn="urn:adsk.eagle:package:21958/1" type="box" library_version="3">
+<description>TOSHIBA PHOTOCOUPLER GaAs IRED &amp; PHOTO-TRANSISTOR 11-3A1
+Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP283_datasheet.pdf</description>
+<packageinstances>
+<packageinstance name="MINI-FLAT-4"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="OK" urn="urn:adsk.eagle:symbol:21854/2" library_version="3">
+<wire x1="-2.413" y1="-1.143" x2="-1.016" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="-1.905" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-0.127" x2="-1.397" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.397" y1="-0.635" x2="-1.016" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="1.397" x2="-2.032" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.016" x2="-1.524" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0.508" x2="-1.143" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.143" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.27" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.985" y1="-5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-4.445" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="5.08" x2="-6.985" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-4.445" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="1.016" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.778" x2="1.778" y2="-1.016" width="0.1524" layer="94"/>
+<text x="-6.985" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.381" y1="-2.54" x2="0.381" y2="2.54" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="C" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="EMIT" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="COL" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLP283-4" urn="urn:adsk.eagle:component:22056/3" prefix="OK" library_version="3">
+<description>&lt;b&gt;TOSHIBA PHOTOCOUPLER GaAs IRED &amp; PHOTO-TRANSISTOR&lt;/b&gt;&lt;p&gt;
+Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP283_datasheet.pdf</description>
+<gates>
+<gate name="A" symbol="OK" x="0" y="27.94"/>
+<gate name="B" symbol="OK" x="0" y="10.16"/>
+<gate name="C" symbol="OK" x="0" y="-7.62"/>
+<gate name="D" symbol="OK" x="0" y="-25.4"/>
+</gates>
+<devices>
+<device name="" package="MINI-FLAT-16">
+<connects>
+<connect gate="A" pin="A" pad="1"/>
+<connect gate="A" pin="C" pad="2"/>
+<connect gate="A" pin="COL" pad="16"/>
+<connect gate="A" pin="EMIT" pad="15"/>
+<connect gate="B" pin="A" pad="3"/>
+<connect gate="B" pin="C" pad="4"/>
+<connect gate="B" pin="COL" pad="14"/>
+<connect gate="B" pin="EMIT" pad="13"/>
+<connect gate="C" pin="A" pad="5"/>
+<connect gate="C" pin="C" pad="6"/>
+<connect gate="C" pin="COL" pad="12"/>
+<connect gate="C" pin="EMIT" pad="11"/>
+<connect gate="D" pin="A" pad="7"/>
+<connect gate="D" pin="C" pad="8"/>
+<connect gate="D" pin="COL" pad="10"/>
+<connect gate="D" pin="EMIT" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21967/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLP283" urn="urn:adsk.eagle:component:22055/3" prefix="OK" library_version="3">
+<description>&lt;b&gt;TOSHIBA PHOTOCOUPLER GaAs IRED &amp; PHOTO-TRANSISTOR&lt;/b&gt;&lt;p&gt;
+Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP283_datasheet.pdf</description>
+<gates>
+<gate name="G$1" symbol="OK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINI-FLAT-4">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COL" pad="4"/>
+<connect gate="G$1" pin="EMIT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21958/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -720,6 +921,9 @@ general purpose rectifier, 1 A</description>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
+<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1"/>
+<part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1"/>
+<part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283" device="" package3d_urn="urn:adsk.eagle:package:21958/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -734,9 +938,9 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="110.49" y="243.84" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="107.95" y="241.3" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="U$1" gate="G$1" x="170.18" y="210.82" smashed="yes">
-<attribute name="NAME" x="157.48" y="231.14" size="1.778" layer="95"/>
-<attribute name="VALUE" x="157.48" y="228.6" size="1.778" layer="96"/>
+<instance part="U$1" gate="G$1" x="152.4" y="208.28" smashed="yes">
+<attribute name="NAME" x="139.7" y="228.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="139.7" y="226.06" size="1.778" layer="96"/>
 </instance>
 <instance part="K1" gate="G$1" x="-10.16" y="281.94" smashed="yes">
 <attribute name="NAME" x="8.89" y="294.64" size="1.778" layer="95" align="center-left"/>
@@ -765,12 +969,12 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="21.336" y="276.225" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.764" y="273.558" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-1" x="68.58" y="281.94" smashed="yes">
-<attribute name="NAME" x="72.136" y="281.305" size="1.778" layer="95"/>
+<instance part="X2" gate="-1" x="73.66" y="281.94" smashed="yes">
+<attribute name="NAME" x="77.216" y="281.305" size="1.778" layer="95"/>
 </instance>
-<instance part="X2" gate="-2" x="68.58" y="276.86" smashed="yes">
-<attribute name="NAME" x="72.136" y="276.225" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.564" y="273.558" size="1.778" layer="96"/>
+<instance part="X2" gate="-2" x="73.66" y="276.86" smashed="yes">
+<attribute name="NAME" x="77.216" y="276.225" size="1.778" layer="95"/>
+<attribute name="VALUE" x="72.644" y="273.558" size="1.778" layer="96"/>
 </instance>
 <instance part="X3" gate="-1" x="119.38" y="281.94" smashed="yes">
 <attribute name="NAME" x="122.936" y="281.305" size="1.778" layer="95"/>
@@ -812,6 +1016,42 @@ general purpose rectifier, 1 A</description>
 <instance part="D5" gate="1" x="193.04" y="284.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="192.5574" y="287.02" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="195.3514" y="287.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="OK1" gate="A" x="-48.26" y="182.88" smashed="yes">
+<attribute name="NAME" x="-55.245" y="188.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-55.245" y="175.26" size="1.778" layer="96"/>
+</instance>
+<instance part="OK1" gate="B" x="-25.4" y="182.88" smashed="yes">
+<attribute name="NAME" x="-32.385" y="188.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-32.385" y="175.26" size="1.778" layer="96"/>
+</instance>
+<instance part="OK1" gate="C" x="-5.08" y="182.88" smashed="yes">
+<attribute name="NAME" x="-12.065" y="188.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-12.065" y="175.26" size="1.778" layer="96"/>
+</instance>
+<instance part="OK1" gate="D" x="15.24" y="182.88" smashed="yes">
+<attribute name="NAME" x="8.255" y="188.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.255" y="175.26" size="1.778" layer="96"/>
+</instance>
+<instance part="OK2" gate="A" x="91.44" y="256.54" smashed="yes">
+<attribute name="NAME" x="84.455" y="262.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="84.455" y="248.92" size="1.778" layer="96"/>
+</instance>
+<instance part="OK2" gate="B" x="114.3" y="256.54" smashed="yes">
+<attribute name="NAME" x="107.315" y="262.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.315" y="248.92" size="1.778" layer="96"/>
+</instance>
+<instance part="OK2" gate="C" x="144.78" y="256.54" smashed="yes">
+<attribute name="NAME" x="137.795" y="262.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="137.795" y="248.92" size="1.778" layer="96"/>
+</instance>
+<instance part="OK2" gate="D" x="167.64" y="256.54" smashed="yes">
+<attribute name="NAME" x="160.655" y="262.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="160.655" y="248.92" size="1.778" layer="96"/>
+</instance>
+<instance part="OK4" gate="G$1" x="193.04" y="256.54" smashed="yes">
+<attribute name="NAME" x="186.055" y="262.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.055" y="248.92" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -917,8 +1157,8 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="X2" gate="-1" pin="1"/>
-<wire x1="66.04" y1="281.94" x2="66.04" y2="287.02" width="0.1524" layer="91"/>
-<label x="66.04" y="281.94" size="1.778" layer="95" rot="R90"/>
+<wire x1="71.12" y1="281.94" x2="71.12" y2="287.02" width="0.1524" layer="91"/>
+<label x="71.12" y="281.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="COM3" class="0">
@@ -954,6 +1194,25 @@ general purpose rectifier, 1 A</description>
 <segment>
 <pinref part="X5" gate="-1" pin="1"/>
 <wire x1="220.98" y1="284.48" x2="220.98" y2="289.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="4"/>
+<wire x1="5.08" y1="294.64" x2="5.08" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="15.24" y1="276.86" x2="12.7" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="276.86" x2="12.7" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="K2" gate="G$1" pin="4"/>
+<wire x1="60.96" y1="294.64" x2="60.96" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
