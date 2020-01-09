@@ -6933,22 +6933,10 @@ W = angled&lt;p&gt;
 <wire x1="17.78" y1="170.18" x2="2.54" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="GPIO_14/[UART]_TXD0"/>
-<wire x1="17.78" y1="162.56" x2="2.54" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND_2"/>
 <wire x1="17.78" y1="160.02" x2="2.54" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="GPIO_15/[UART]_RXD0"/>
-<wire x1="17.78" y1="157.48" x2="2.54" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -7168,6 +7156,11 @@ W = angled&lt;p&gt;
 <wire x1="68.58" y1="30.48" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <label x="68.15" y="46.05" size="0.8128" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GPIO_15/[UART]_RXD0"/>
+<wire x1="17.78" y1="157.48" x2="2.54" y2="157.48" width="0.1524" layer="91"/>
+<label x="2.5" y="157.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="URX" class="0">
 <segment>
@@ -7175,6 +7168,11 @@ W = angled&lt;p&gt;
 <wire x1="76.2" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="27.94" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <label x="65.65" y="45.95" size="0.8128" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GPIO_14/[UART]_TXD0"/>
+<wire x1="17.78" y1="162.56" x2="2.54" y2="162.56" width="0.1524" layer="91"/>
+<label x="2.45" y="162.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HRX" class="0">
