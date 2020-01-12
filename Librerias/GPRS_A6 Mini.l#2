@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -89,64 +89,9 @@
 <text x="-12.7" y="5.08" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
 <text x="-10.16" y="5.08" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
-<package name="MOD_GSM_A6_SDM">
-<wire x1="16.55" y1="-13.2" x2="16.55" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="16.55" y1="-7.62" x2="16.55" y2="7.62" width="0.127" layer="21"/>
-<wire x1="16.55" y1="7.62" x2="16.55" y2="13.2" width="0.127" layer="21"/>
-<wire x1="-16.55" y1="13.2" x2="16.55" y2="13.2" width="0.127" layer="21"/>
-<wire x1="-16.55" y1="-13.2" x2="16.55" y2="-13.2" width="0.127" layer="21"/>
-<wire x1="-16.55" y1="-13.2" x2="-16.55" y2="13.2" width="0.127" layer="21"/>
-<wire x1="0" y1="7.62" x2="16.55" y2="7.62" width="0.127" layer="21"/>
-<wire x1="0" y1="-7.62" x2="16.55" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-3.81" x2="16.51" y2="3.81" width="0.127" layer="21" curve="-180"/>
-<text x="-12.7" y="5.08" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
-<text x="-10.16" y="5.08" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-<smd name="HTX" x="-2.54" y="13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="HRX" x="0" y="9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="GND" x="2.54" y="13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="URX" x="5.08" y="9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="UTX" x="7.62" y="13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="EAR_R" x="10.16" y="9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="EAR_L" x="12.7" y="13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="MIC2_P" x="15.24" y="9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="VCC" x="-2.54" y="-13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="IO14" x="0" y="-9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="NETLED" x="2.54" y="-13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="PWR" x="5.08" y="-9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="INT" x="7.62" y="-13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="RST" x="10.16" y="-9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="MIC+" x="12.7" y="-13.1" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-<smd name="MIC-" x="15.24" y="-9.8" dx="1.9" dy="1.02" layer="1" rot="R90"/>
-</package>
 </packages>
 <symbols>
 <symbol name="MOD_GSM_A6_SIM">
-<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-25.4" x2="15.24" y2="22.86" width="0.254" layer="94"/>
-<wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
-<pin name="VCC" x="-20.32" y="17.78" length="middle"/>
-<pin name="IO14" x="-20.32" y="12.7" length="middle"/>
-<pin name="NETLED" x="-20.32" y="7.62" length="middle"/>
-<pin name="PWR" x="-20.32" y="2.54" length="middle"/>
-<pin name="INT" x="-20.32" y="-2.54" length="middle"/>
-<pin name="RST" x="-20.32" y="-7.62" length="middle"/>
-<pin name="MIC+" x="-20.32" y="-12.7" length="middle"/>
-<pin name="MIC-" x="-20.32" y="-17.78" length="middle"/>
-<pin name="HTX" x="20.32" y="17.78" length="middle" rot="R180"/>
-<pin name="HRX" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="GND" x="20.32" y="7.62" length="middle" rot="R180"/>
-<pin name="URX" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="UTX" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="EAR_R" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="EAR_L" x="20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="MIC2_P" x="20.32" y="-17.78" length="middle" rot="R180"/>
-<text x="-15.24" y="25.4" size="1.27" layer="94">&gt;NAME</text>
-<text x="-5.08" y="25.4" size="1.27" layer="94">&gt;VALUE</text>
-<text x="-2.54" y="-7.62" size="1.27" layer="94" rot="R90">Modulo_Gsm_A6_Mini</text>
-</symbol>
-<symbol name="MOD_GSM_A6_SIM_SMD">
 <wire x1="-15.24" y1="22.86" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-25.4" x2="15.24" y2="22.86" width="0.254" layer="94"/>
@@ -180,37 +125,6 @@
 </gates>
 <devices>
 <device name="" package="MOD_GSM_A6">
-<connects>
-<connect gate="G$1" pin="EAR_L" pad="EAR_L"/>
-<connect gate="G$1" pin="EAR_R" pad="EAR_R"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="HRX" pad="HRX"/>
-<connect gate="G$1" pin="HTX" pad="HTX"/>
-<connect gate="G$1" pin="INT" pad="INT"/>
-<connect gate="G$1" pin="IO14" pad="IO14"/>
-<connect gate="G$1" pin="MIC+" pad="MIC+"/>
-<connect gate="G$1" pin="MIC-" pad="MIC-"/>
-<connect gate="G$1" pin="MIC2_P" pad="MIC2_P"/>
-<connect gate="G$1" pin="NETLED" pad="NETLED"/>
-<connect gate="G$1" pin="PWR" pad="PWR"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="URX" pad="URX"/>
-<connect gate="G$1" pin="UTX" pad="UTX"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOD_GSM_A6_DIV_SMD">
-<description>Modulo Gsm A6 Mini</description>
-<gates>
-<gate name="G$1" symbol="MOD_GSM_A6_SIM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="MOD_GSM_A6_SDM">
 <connects>
 <connect gate="G$1" pin="EAR_L" pad="EAR_L"/>
 <connect gate="G$1" pin="EAR_R" pad="EAR_R"/>

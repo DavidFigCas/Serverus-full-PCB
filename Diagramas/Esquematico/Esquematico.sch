@@ -6914,22 +6914,22 @@ Grid 5.00 mm&lt;p&gt;
 <library name="GPRS_A6 Mini">
 <packages>
 <package name="MOD_GSM_A6">
-<pad name="VCC" x="-2.54" y="-11.45" drill="1.11"/>
-<pad name="IO14" x="0" y="-11.45" drill="1.11"/>
-<pad name="NETLED" x="2.54" y="-11.45" drill="1.11"/>
-<pad name="PWR" x="5.08" y="-11.45" drill="1.11"/>
-<pad name="INT" x="7.62" y="-11.45" drill="1.11" rot="R180"/>
-<pad name="RST" x="10.16" y="-11.45" drill="1.11"/>
-<pad name="MIC+" x="12.7" y="-11.45" drill="1.11"/>
-<pad name="MIC-" x="15.24" y="-11.45" drill="1.11"/>
-<pad name="HTX" x="-2.54" y="11.45" drill="1.11" rot="R180"/>
-<pad name="HRX" x="0" y="11.45" drill="1.11"/>
-<pad name="GND" x="2.54" y="11.45" drill="1.11"/>
-<pad name="URX" x="5.08" y="11.45" drill="1.11"/>
-<pad name="UTX" x="7.62" y="11.45" drill="1.11"/>
-<pad name="EAR_R" x="10.16" y="11.45" drill="1.11"/>
-<pad name="EAR_L" x="12.7" y="11.45" drill="1.11"/>
-<pad name="MIC2_P" x="15.24" y="11.45" drill="1.11"/>
+<pad name="VCC" x="-2.54" y="-11.45" drill="0.65" shape="square"/>
+<pad name="IO14" x="0" y="-11.45" drill="0.65"/>
+<pad name="NETLED" x="2.54" y="-11.45" drill="0.65"/>
+<pad name="PWR" x="5.08" y="-11.45" drill="0.65"/>
+<pad name="INT" x="7.62" y="-11.45" drill="0.65" rot="R180"/>
+<pad name="RST" x="10.16" y="-11.45" drill="0.65"/>
+<pad name="MIC+" x="12.7" y="-11.45" drill="0.65"/>
+<pad name="MIC-" x="15.24" y="-11.45" drill="0.65"/>
+<pad name="HTX" x="-2.54" y="11.45" drill="0.65" rot="R180"/>
+<pad name="HRX" x="0" y="11.45" drill="0.65"/>
+<pad name="GND" x="2.54" y="11.45" drill="0.65"/>
+<pad name="URX" x="5.08" y="11.45" drill="0.65"/>
+<pad name="UTX" x="7.62" y="11.45" drill="0.65"/>
+<pad name="EAR_R" x="10.16" y="11.45" drill="0.65"/>
+<pad name="EAR_L" x="12.7" y="11.45" drill="0.65"/>
+<pad name="MIC2_P" x="15.24" y="11.45" drill="0.65"/>
 <wire x1="16.55" y1="-13.2" x2="16.55" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="16.55" y1="-7.62" x2="16.55" y2="7.62" width="0.127" layer="21"/>
 <wire x1="16.55" y1="7.62" x2="16.55" y2="13.2" width="0.127" layer="21"/>
