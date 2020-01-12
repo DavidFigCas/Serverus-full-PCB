@@ -10972,10 +10972,10 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1F"/>
 <part name="SV3" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE06-1" device="" package3d_urn="urn:adsk.eagle:package:8191/1"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="Modulo Pir"/>
-<part name="X5" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="X7" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="X8" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="X9" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="OUT1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="ALARMA" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="OUT3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="OUT4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="X10" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="X11" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="X12" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
@@ -11158,31 +11158,31 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <attribute name="VALUE" x="-30.48" y="117.094" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="-30.48" y="130.048" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="X5" gate="-1" x="-2.54" y="276.86" smashed="yes" rot="R180">
+<instance part="OUT1" gate="-1" x="-2.54" y="276.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="-2.54" y="275.971" size="1.778" layer="95"/>
 </instance>
-<instance part="X5" gate="-2" x="-2.54" y="281.94" smashed="yes" rot="R180">
+<instance part="OUT1" gate="-2" x="-2.54" y="281.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="0" y="285.623" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-2.54" y="281.051" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-1" x="58.42" y="276.86" smashed="yes" rot="R180">
+<instance part="ALARMA" gate="-1" x="58.42" y="276.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.42" y="275.971" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-2" x="58.42" y="281.94" smashed="yes" rot="R180">
+<instance part="ALARMA" gate="-2" x="58.42" y="281.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="60.96" y="285.623" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="58.42" y="281.051" size="1.778" layer="95"/>
 </instance>
-<instance part="X8" gate="-1" x="119.38" y="276.86" smashed="yes" rot="R180">
+<instance part="OUT3" gate="-1" x="119.38" y="276.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="119.38" y="275.971" size="1.778" layer="95"/>
 </instance>
-<instance part="X8" gate="-2" x="119.38" y="281.94" smashed="yes" rot="R180">
+<instance part="OUT3" gate="-2" x="119.38" y="281.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="121.92" y="285.623" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="119.38" y="281.051" size="1.778" layer="95"/>
 </instance>
-<instance part="X9" gate="-1" x="177.8" y="276.86" smashed="yes" rot="R180">
+<instance part="OUT4" gate="-1" x="177.8" y="276.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="177.8" y="275.971" size="1.778" layer="95"/>
 </instance>
-<instance part="X9" gate="-2" x="177.8" y="281.94" smashed="yes" rot="R180">
+<instance part="OUT4" gate="-2" x="177.8" y="281.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="180.34" y="285.623" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="177.8" y="281.051" size="1.778" layer="95"/>
 </instance>
@@ -11252,7 +11252,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="-33.02" y="271.78" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X5" gate="-2" pin="KL"/>
+<pinref part="OUT1" gate="-2" pin="KL"/>
 <wire x1="-7.62" y1="281.94" x2="-7.62" y2="287.02" width="0.1524" layer="91"/>
 <label x="-7.62" y="287.02" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -11264,7 +11264,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="27.94" y="271.78" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X7" gate="-2" pin="KL"/>
+<pinref part="ALARMA" gate="-2" pin="KL"/>
 <wire x1="53.34" y1="281.94" x2="53.34" y2="287.02" width="0.1524" layer="91"/>
 <label x="53.34" y="287.02" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -11276,7 +11276,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="88.9" y="269.24" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X8" gate="-2" pin="KL"/>
+<pinref part="OUT3" gate="-2" pin="KL"/>
 <wire x1="114.3" y1="281.94" x2="114.3" y2="287.02" width="0.1524" layer="91"/>
 <label x="114.3" y="287.02" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -11288,7 +11288,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="149.86" y="269.24" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X9" gate="-2" pin="KL"/>
+<pinref part="OUT4" gate="-2" pin="KL"/>
 <wire x1="172.72" y1="281.94" x2="172.72" y2="287.02" width="0.1524" layer="91"/>
 <label x="172.72" y="287.02" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -11300,7 +11300,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="-17.78" y="299.72" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X5" gate="-1" pin="KL"/>
+<pinref part="OUT1" gate="-1" pin="KL"/>
 <wire x1="-7.62" y1="276.86" x2="-7.62" y2="269.24" width="0.1524" layer="91"/>
 <label x="-7.62" y="269.24" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -11312,7 +11312,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="43.18" y="299.72" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X7" gate="-1" pin="KL"/>
+<pinref part="ALARMA" gate="-1" pin="KL"/>
 <wire x1="53.34" y1="276.86" x2="53.34" y2="269.24" width="0.1524" layer="91"/>
 <label x="53.34" y="269.24" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -11324,7 +11324,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="104.14" y="299.72" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X8" gate="-1" pin="KL"/>
+<pinref part="OUT3" gate="-1" pin="KL"/>
 <wire x1="114.3" y1="276.86" x2="114.3" y2="269.24" width="0.1524" layer="91"/>
 <label x="114.3" y="269.24" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -11336,7 +11336,7 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 <label x="165.1" y="299.72" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X9" gate="-1" pin="KL"/>
+<pinref part="OUT4" gate="-1" pin="KL"/>
 <wire x1="172.72" y1="276.86" x2="172.72" y2="269.24" width="0.1524" layer="91"/>
 <label x="172.72" y="269.24" size="0.8128" layer="95" xref="yes"/>
 </segment>
