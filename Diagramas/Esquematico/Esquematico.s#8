@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9072,6 +9072,29 @@ Source: &lt;a href="http://www.taoglas.com/wp-content/uploads/2016/04/RECE.20279
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="204,1,-129.54,-7.62,U2,GND,,,,"/>
+<approved hash="204,1,-129.54,86.36,U2,VBAT,,,,"/>
+<approved hash="202,1,-170.18,73.66,U2,PWRKEY,,,,"/>
+<approved hash="202,1,-170.18,45.72,U2,DTR,,,,"/>
+<approved hash="202,1,-170.18,35.56,U2,RTS,,,,"/>
+<approved hash="202,1,-170.18,30.48,U2,RXD,,,,"/>
+<approved hash="202,1,-170.18,71.12,U2,!RESET,,,,"/>
+<approved hash="202,1,-129.54,35.56,U2,MIC1P,,,,"/>
+<approved hash="202,1,-129.54,33.02,U2,MIC1N,,,,"/>
+<approved hash="202,1,-170.18,66.04,U2,ADC0,,,,"/>
+<approved hash="202,1,-170.18,63.5,U2,ADC1,,,,"/>
+<approved hash="202,1,-170.18,55.88,U2,VCHG,,,,"/>
+<approved hash="202,1,-129.54,40.64,U2,SIM_DET,,,,"/>
+<approved hash="202,1,-129.54,55.88,U2,GPS_ANT,,,,"/>
+<approved hash="202,1,-170.18,22.86,U2,SCL,,,,"/>
+<approved hash="202,1,-129.54,17.78,U2,PCM_CLK,,,,"/>
+<approved hash="202,1,-129.54,20.32,U2,PCM_IN,,,,"/>
+<approved hash="202,1,-170.18,10.16,U2,KBC3,,,,"/>
+<approved hash="202,1,-170.18,12.7,U2,KBC2,,,,"/>
+<approved hash="202,1,-170.18,15.24,U2,KBC1,,,,"/>
+<approved hash="202,1,-170.18,17.78,U2,KBC0,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
