@@ -5086,34 +5086,34 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package name="3071">
 <description>&lt;b&gt;3071-1&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.11" diameter="1.665"/>
-<pad name="2" x="2.54" y="0" drill="1.11" diameter="1.665"/>
-<pad name="3" x="5.08" y="0" drill="1.11" diameter="1.665"/>
-<pad name="4" x="7.62" y="0" drill="1.11" diameter="1.665"/>
-<pad name="5" x="10.16" y="0" drill="1.11" diameter="1.665"/>
-<pad name="6" x="12.7" y="0" drill="1.11" diameter="1.665"/>
-<pad name="7" x="15.24" y="0" drill="1.11" diameter="1.665"/>
-<pad name="8" x="17.78" y="0" drill="1.11" diameter="1.665"/>
-<pad name="9" x="20.32" y="0" drill="1.11" diameter="1.665"/>
-<pad name="10" x="10.16" y="25.4" drill="1.11" diameter="1.665"/>
-<pad name="11" x="7.62" y="25.4" drill="1.11" diameter="1.665"/>
-<pad name="12" x="5.08" y="25.4" drill="1.11" diameter="1.665"/>
-<pad name="13" x="2.54" y="25.4" drill="1.11" diameter="1.665"/>
-<pad name="14" x="0" y="25.4" drill="1.11" diameter="1.665"/>
-<text x="10.16" y="12.7" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="10.16" y="12.7" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.54" y1="27.305" x2="22.86" y2="27.305" width="0.2" layer="51"/>
-<wire x1="22.86" y1="27.305" x2="22.86" y2="-1.905" width="0.2" layer="51"/>
-<wire x1="22.86" y1="-1.905" x2="-2.54" y2="-1.905" width="0.2" layer="51"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="27.305" width="0.2" layer="51"/>
-<wire x1="-2.54" y1="27.305" x2="22.86" y2="27.305" width="0.1" layer="21"/>
-<wire x1="22.86" y1="27.305" x2="22.86" y2="-1.905" width="0.1" layer="21"/>
-<wire x1="22.86" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="27.305" width="0.1" layer="21"/>
-<wire x1="-3.54" y1="28.305" x2="23.86" y2="28.305" width="0.1" layer="51"/>
-<wire x1="23.86" y1="28.305" x2="23.86" y2="-2.905" width="0.1" layer="51"/>
-<wire x1="23.86" y1="-2.905" x2="-3.54" y2="-2.905" width="0.1" layer="51"/>
-<wire x1="-3.54" y1="-2.905" x2="-3.54" y2="28.305" width="0.1" layer="51"/>
+<pad name="1" x="-10.16" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="2" x="-7.62" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="3" x="-5.08" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="4" x="-2.54" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="5" x="0" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="6" x="2.54" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="7" x="5.08" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="8" x="7.62" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="9" x="10.16" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="10" x="0" y="12.7" drill="1.11" diameter="1.665"/>
+<pad name="11" x="-2.54" y="12.7" drill="1.11" diameter="1.665"/>
+<pad name="12" x="-5.08" y="12.7" drill="1.11" diameter="1.665"/>
+<pad name="13" x="-7.62" y="12.7" drill="1.11" diameter="1.665"/>
+<pad name="14" x="-10.16" y="12.7" drill="1.11" diameter="1.665"/>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-12.7" y1="14.605" x2="12.7" y2="14.605" width="0.2" layer="51"/>
+<wire x1="12.7" y1="14.605" x2="12.7" y2="-14.605" width="0.2" layer="51"/>
+<wire x1="12.7" y1="-14.605" x2="-12.7" y2="-14.605" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="-14.605" x2="-12.7" y2="14.605" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="14.605" x2="12.7" y2="14.605" width="0.1" layer="21"/>
+<wire x1="12.7" y1="14.605" x2="12.7" y2="-14.605" width="0.1" layer="21"/>
+<wire x1="12.7" y1="-14.605" x2="-12.7" y2="-14.605" width="0.1" layer="21"/>
+<wire x1="-12.7" y1="-14.605" x2="-12.7" y2="14.605" width="0.1" layer="21"/>
+<wire x1="-13.7" y1="15.605" x2="13.7" y2="15.605" width="0.1" layer="51"/>
+<wire x1="13.7" y1="15.605" x2="13.7" y2="-15.605" width="0.1" layer="51"/>
+<wire x1="13.7" y1="-15.605" x2="-13.7" y2="-15.605" width="0.1" layer="51"/>
+<wire x1="-13.7" y1="-15.605" x2="-13.7" y2="15.605" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>

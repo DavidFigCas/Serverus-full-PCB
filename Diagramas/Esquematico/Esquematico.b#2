@@ -5207,6 +5207,20 @@ design rules under a new name.</description>
 <via x="56.278" y="15.1062" extent="1-16" drill="0.35"/>
 <via x="45.911" y="34.063" extent="1-16" drill="0.35"/>
 <via x="43.5414" y="31.6934" extent="1-16" drill="0.35"/>
+<polygon width="1.016" layer="16">
+<vertex x="0.375" y="79.59375"/>
+<vertex x="63.5625" y="79.59375"/>
+<vertex x="63.5625" y="0.53125"/>
+<vertex x="0.53125" y="0.53125"/>
+<vertex x="0.53125" y="79.46875"/>
+<vertex x="0.5625" y="79.5"/>
+</polygon>
+<polygon width="1.016" layer="1">
+<vertex x="0.5" y="79.5625"/>
+<vertex x="63.5" y="79.5625"/>
+<vertex x="63.5" y="0.5625"/>
+<vertex x="0.5625" y="0.5625"/>
+</polygon>
 </signal>
 <signal name="5V">
 <contactref element="D1" pad="C"/>
