@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -8711,11 +8711,6 @@ CONN_20x2
 <label x="106.68" y="121.92" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J$1" pin="3"/>
-<wire x1="-40.64" y1="127" x2="-55.88" y2="127" width="0.1524" layer="91"/>
-<label x="-58.42" y="127" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X1" gate="-2" pin="KL"/>
 <wire x1="-93.98" y1="203.2" x2="-81.28" y2="203.2" width="0.1524" layer="91"/>
 <label x="-78.74" y="203.2" size="0.8128" layer="95" xref="yes"/>
@@ -8729,6 +8724,11 @@ CONN_20x2
 <pinref part="J2" gate="G$1" pin="5V@2"/>
 <wire x1="-25.4" y1="200.66" x2="-38.1" y2="200.66" width="0.1524" layer="91"/>
 <label x="-40.64" y="200.66" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="J$1" pin="2"/>
+<wire x1="-40.64" y1="124.46" x2="-55.88" y2="124.46" width="0.1524" layer="91"/>
+<label x="-58.42" y="124.46" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INT4" class="0">
@@ -9018,14 +9018,14 @@ CONN_20x2
 </net>
 <net name="INT5" class="0">
 <segment>
-<pinref part="J1" gate="J$1" pin="2"/>
-<wire x1="-40.64" y1="124.46" x2="-55.88" y2="124.46" width="0.1524" layer="91"/>
-<label x="-58.42" y="124.46" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="GP26"/>
 <wire x1="-25.4" y1="167.64" x2="-38.1" y2="167.64" width="0.1524" layer="91"/>
 <label x="-40.64" y="167.64" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="J$1" pin="3"/>
+<wire x1="-40.64" y1="127" x2="-55.88" y2="127" width="0.1524" layer="91"/>
+<label x="-58.42" y="127" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT_ALARMA" class="0">

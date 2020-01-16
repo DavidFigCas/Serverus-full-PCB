@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6019,6 +6019,33 @@ No silk outline, but tDocu layer shows pin location.
 <text x="2.159" y="3.683" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="2.032" y="-4.572" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="JST-2-SMD">
+<description>&lt;h3&gt;JST-Right Angle Male Header SMT&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: 2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://www.4uconnector.com/online/object/4udrawing/20404.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;li&gt;JST_2MM_MALE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-4" y1="-1" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-3.2" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-4.5" x2="-3.2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="2" y1="-2" x2="3.2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-2" x2="3.2" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-4.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.5" x2="4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2" y1="3" x2="-2" y2="3" width="0.2032" layer="21"/>
+<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-1.397" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="0.635" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_03">
@@ -6035,6 +6062,34 @@ No silk outline, but tDocu layer shows pin location.
 <pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="JST_2MM_MALE">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.302" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="3.302" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.302" x2="5.08" y2="1.778" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.778" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="4.064" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-2.54" x2="4.064" y2="0" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0" x2="-1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
+<pin name="+" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
+<pin name="PAD2" x="5.08" y="2.54" visible="off" length="point" rot="R90"/>
+<pin name="PAD1" x="-2.54" y="2.54" visible="off" length="point" rot="R90"/>
+<wire x1="-2.54" y1="1.778" x2="-1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.778" x2="-1.778" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="3.302" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.778" x2="4.318" y2="1.778" width="0.254" layer="94"/>
+<wire x1="4.318" y1="1.778" x2="4.318" y2="3.302" width="0.254" layer="94"/>
+<wire x1="4.318" y1="3.302" x2="5.08" y2="3.302" width="0.254" layer="94"/>
+<wire x1="2.032" y1="1.016" x2="3.048" y2="1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.508" x2="2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="1.524" width="0.254" layer="94"/>
+<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6336,6 +6391,44 @@ No silk outline, but tDocu layer shows pin location.
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_2MM_MALE" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;JST 2MM MALE RA CONNECTOR&lt;/h3&gt;
+Two pin, compact surface mount connector. Commonly used as a battery input connection point. We really like the solid locking feeling and high current rating on these small connectors. We use these all the time as battery connectors. Mates to single-cell LiPo batteries.
+
+&lt;p&gt;&lt;/p&gt;
+&lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8612"&gt;JST Right Angle Connector - White&lt;/a&gt; (PRT-08612)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/Connectors/JST-Horizontal.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;b&gt;It was used on these SparkFun products:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11214"&gt;SparkFun MOSFET Power Controller&lt;/a&gt; (PRT-11214)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13777"&gt;SparkFun Battery Babysitter - LiPo Battery Manager&lt;/a&gt; (PRT-13777)&lt;/li&gt;
+&lt;li&gt;And many, many others that required a lipo battery connection.&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="JST_2MM_MALE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST-2-SMD">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+<connect gate="G$1" pin="PAD1" pad="NC1"/>
+<connect gate="G$1" pin="PAD2" pad="NC2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-11443"/>
+<attribute name="SF_ID" value="PRT-08612" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8100,20 +8193,20 @@ CONN_20x2
 <part name="ALARMA" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="OUT3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="OUT4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="INT1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="INT2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="INT3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="INT4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="PWR" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="U1" library="RFM69HW-868S2" deviceset="RFM69HW-868S2" device=""/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-1X1" device=""/>
 <part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOTHERMALS"/>
 <part name="ANT1" library="RECE.20279.001E.01" deviceset="RECE.20279.001E.01" device=""/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="0.1F"/>
-<part name="NEO_PIXEL" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="U$2" library="GPRS_A6 Mini" deviceset="MOD_GSM_A6_DIV_SMD" device="SMD"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="RASPBERRYPI-40-PIN-GPIO" device="_SMT" package3d_urn="urn:adsk.eagle:package:38280/1"/>
 <part name="B1" library="microbuilder" deviceset="BATTERY" device="CR1220_SMT"/>
+<part name="INT_1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
+<part name="INT_2" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
+<part name="INT_3" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
+<part name="INT_4" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
+<part name="NEOPIXEL" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8288,34 +8381,6 @@ CONN_20x2
 <attribute name="VALUE" x="180.34" y="285.623" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="177.8" y="281.051" size="1.778" layer="95"/>
 </instance>
-<instance part="INT1" gate="-1" x="83.82" y="195.58" smashed="yes">
-<attribute name="NAME" x="83.82" y="196.469" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="INT1" gate="-2" x="83.82" y="190.5" smashed="yes">
-<attribute name="VALUE" x="81.28" y="186.817" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="191.389" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="INT2" gate="-1" x="83.82" y="170.18" smashed="yes">
-<attribute name="NAME" x="83.82" y="171.069" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="INT2" gate="-2" x="83.82" y="165.1" smashed="yes">
-<attribute name="VALUE" x="81.28" y="161.417" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="165.989" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="INT3" gate="-1" x="83.82" y="144.78" smashed="yes">
-<attribute name="NAME" x="83.82" y="145.669" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="INT3" gate="-2" x="83.82" y="139.7" smashed="yes">
-<attribute name="VALUE" x="81.28" y="136.017" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="140.589" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="INT4" gate="-1" x="83.82" y="116.84" smashed="yes">
-<attribute name="NAME" x="83.82" y="117.729" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="INT4" gate="-2" x="83.82" y="111.76" smashed="yes">
-<attribute name="VALUE" x="81.28" y="108.077" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="112.649" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="PWR" gate="-1" x="-99.06" y="208.28" smashed="yes">
 <attribute name="NAME" x="-99.06" y="209.169" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -8343,13 +8408,6 @@ CONN_20x2
 <attribute name="NAME" x="-53.34" y="271.78" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="-53.34" y="269.24" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="NEO_PIXEL" gate="-1" x="-99.06" y="220.98" smashed="yes">
-<attribute name="NAME" x="-99.06" y="221.869" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="NEO_PIXEL" gate="-2" x="-99.06" y="215.9" smashed="yes">
-<attribute name="VALUE" x="-101.6" y="212.217" size="1.778" layer="96"/>
-<attribute name="NAME" x="-99.06" y="216.789" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="U$2" gate="G$1" x="-144.78" y="170.18" smashed="yes">
 <attribute name="NAME" x="-160.02" y="195.58" size="1.27" layer="94"/>
 <attribute name="VALUE" x="-149.86" y="195.58" size="1.27" layer="94"/>
@@ -8361,6 +8419,21 @@ CONN_20x2
 <instance part="B1" gate="G$1" x="-96.52" y="246.38" smashed="yes">
 <attribute name="NAME" x="-99.06" y="249.555" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-99.06" y="241.3" size="1.27" layer="96"/>
+</instance>
+<instance part="INT_1" gate="G$1" x="86.36" y="193.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.518" y="190.5" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="INT_2" gate="G$1" x="86.36" y="167.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.518" y="165.1" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="INT_3" gate="G$1" x="86.36" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.518" y="139.7" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="INT_4" gate="G$1" x="86.36" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.518" y="111.76" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="NEOPIXEL" gate="G$1" x="-99.06" y="214.63" smashed="yes" rot="R90">
+<attribute name="NAME" x="-104.902" y="212.09" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -8588,11 +8661,6 @@ CONN_20x2
 <label x="-58.42" y="121.92" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="INT1" gate="-2" pin="KL"/>
-<wire x1="88.9" y1="190.5" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
-<label x="104.14" y="190.5" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="PWR" gate="-1" pin="KL"/>
 <wire x1="-93.98" y1="208.28" x2="-81.28" y2="208.28" width="0.1524" layer="91"/>
 <label x="-78.74" y="208.28" size="0.8128" layer="95" xref="yes"/>
@@ -8617,26 +8685,6 @@ CONN_20x2
 <label x="-91.44" y="91.44" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="INT2" gate="-2" pin="KL"/>
-<wire x1="88.9" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
-<label x="104.14" y="165.1" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="INT3" gate="-2" pin="KL"/>
-<wire x1="88.9" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
-<label x="104.14" y="139.7" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="INT4" gate="-2" pin="KL"/>
-<wire x1="88.9" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
-<label x="104.14" y="111.76" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="NEO_PIXEL" gate="-2" pin="KL"/>
-<wire x1="-93.98" y1="215.9" x2="-81.28" y2="215.9" width="0.1524" layer="91"/>
-<label x="-78.74" y="215.9" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="-124.46" y1="177.8" x2="-111.76" y2="177.8" width="0.1524" layer="91"/>
 <label x="-109.22" y="177.8" size="0.8128" layer="95" xref="yes"/>
@@ -8645,6 +8693,31 @@ CONN_20x2
 <pinref part="J2" gate="G$1" pin="GND@6"/>
 <wire x1="-25.4" y1="162.56" x2="-38.1" y2="162.56" width="0.1524" layer="91"/>
 <label x="-40.64" y="162.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="NEOPIXEL" gate="G$1" pin="-"/>
+<wire x1="-93.98" y1="214.63" x2="-81.28" y2="214.63" width="0.1524" layer="91"/>
+<label x="-78.74" y="214.63" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="INT_1" gate="G$1" pin="-"/>
+<wire x1="91.44" y1="193.04" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
+<label x="102.87" y="193.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="INT_2" gate="G$1" pin="-"/>
+<wire x1="91.44" y1="167.64" x2="100.33" y2="167.64" width="0.1524" layer="91"/>
+<label x="102.87" y="167.64" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="INT_3" gate="G$1" pin="-"/>
+<wire x1="91.44" y1="142.24" x2="100.33" y2="142.24" width="0.1524" layer="91"/>
+<label x="102.87" y="142.24" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="INT_4" gate="G$1" pin="-"/>
+<wire x1="100.33" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
+<label x="102.87" y="114.3" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -9148,14 +9221,14 @@ CONN_20x2
 </net>
 <net name="G18" class="0">
 <segment>
-<pinref part="NEO_PIXEL" gate="-1" pin="KL"/>
-<wire x1="-93.98" y1="220.98" x2="-81.28" y2="220.98" width="0.1524" layer="91"/>
-<label x="-78.74" y="220.98" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="GP18#"/>
 <wire x1="5.08" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
 <label x="20.32" y="165.1" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="NEOPIXEL" gate="G$1" pin="+"/>
+<wire x1="-93.98" y1="217.17" x2="-81.28" y2="217.17" width="0.1524" layer="91"/>
+<label x="-78.74" y="217.17" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MIC-" class="0">
@@ -9334,30 +9407,30 @@ CONN_20x2
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="INT1" gate="-1" pin="KL"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="195.58" x2="109.22" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="INT_1" gate="G$1" pin="+"/>
+<wire x1="91.44" y1="195.58" x2="109.22" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="INT2" gate="-1" pin="KL"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="INT_2" gate="G$1" pin="+"/>
+<wire x1="91.44" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="INT3" gate="-1" pin="KL"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="INT_3" gate="G$1" pin="+"/>
+<wire x1="91.44" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="INT4" gate="-1" pin="KL"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="INT_4" gate="G$1" pin="+"/>
+<wire x1="91.44" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO14" class="0">
