@@ -168,9 +168,9 @@
 <text x="4" y="3.66" size="1.778" layer="16" rot="MR180">+</text>
 <text x="4" y="9.09" size="1.778" layer="16" rot="MR180">-</text>
 <text x="4" y="1.86875" size="1.778" layer="25">+</text>
-<text x="60.02625" y="42.6075" size="0.4064" layer="25" rot="R90">INT5</text>
-<text x="60.02625" y="39.9075" size="0.4064" layer="25" rot="R90">5V</text>
-<text x="60.02625" y="37.1175" size="0.4064" layer="25" rot="R90">GND</text>
+<text x="62.72625" y="42.3075" size="0.4064" layer="25" rot="R90">INT5</text>
+<text x="62.72625" y="39.9075" size="0.4064" layer="25" rot="R90">5V</text>
+<text x="62.72625" y="37.1175" size="0.4064" layer="25" rot="R90">GND</text>
 <text x="63.19375" y="12.46625" size="0.4064" layer="25" rot="R90">GND</text>
 <text x="63.13125" y="22.63875" size="0.4064" layer="25" rot="R90">3.3V</text>
 <text x="63.1625" y="19.91875" size="0.4064" layer="25" rot="R90">SDA</text>
