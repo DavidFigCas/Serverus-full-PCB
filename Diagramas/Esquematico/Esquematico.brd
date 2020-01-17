@@ -167,12 +167,12 @@
 <wire x1="0" y1="62" x2="0" y2="0" width="0" layer="20"/>
 <text x="9.2938125" y="8.336890625" size="1.27" layer="16" rot="MR0">+5v</text>
 <text x="4.7" y="8.3" size="1.27" layer="16" rot="MR0">GND</text>
-<text x="6.16491875" y="8.3" size="1.27" layer="26" rot="MR0">+5v</text>
-<text x="0.7" y="8.3" size="1.27" layer="26" rot="MR0">GND</text>
-<text x="10.576584375" y="8.3" size="1.016" layer="26" rot="MR0">NO1</text>
-<text x="14.98825" y="8.3" size="1.016" layer="26" rot="MR0">COM1</text>
-<text x="20.613834375" y="8.3" size="1.016" layer="26" rot="MR0">NO2</text>
-<text x="25.0255" y="8.3" size="1.016" layer="26" rot="MR0">COM2</text>
+<text x="6.16491875" y="8.3" size="1.27" layer="25">+5v</text>
+<text x="0.7" y="8.3" size="1.27" layer="25">GND</text>
+<text x="10.576584375" y="8.3" size="1.016" layer="25">NO1</text>
+<text x="14.98825" y="8.3" size="1.016" layer="25">COM1</text>
+<text x="20.613834375" y="8.3" size="1.016" layer="25">NO2</text>
+<text x="25.0255" y="8.3" size="1.016" layer="25">COM2</text>
 <text x="35.06275" y="8.3" size="1.016" layer="25">COM3</text>
 <text x="30.651084375" y="8.3" size="1.016" layer="25">NO3</text>
 <text x="40.688334375" y="8.3" size="1.016" layer="25">NO4</text>
